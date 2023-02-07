@@ -1,0 +1,70 @@
+* {
+  margin-left: 4px;
+  width: 300px;
+}
+
+#men {
+    width: 30px;
+    height: 4px;
+    margin-left: 90%;
+    margin-top: 4px;
+    background-color: black;
+}
+
+img {
+    width: 320px;
+    margin-buttom: 20px;
+    margin-top: 10px;
+   
+}
+
+#h1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#para {
+    line-height: 2;
+    font-size: 6;
+}
+
+#button {
+    background-color : red;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    margin-top : 30px;
+    text-align: center;
+    margin-buttom: 20px;
+    font-weight: bold;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.25s;
+}
+
+#furry {
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-buttom: 20px;
+}
+
+
+
+#container {
+    overflow: auto;
+}
+
+#image {
+   width: 90px;
+    float: left;
+    margin-right: 10px;
+}
+
+#red:hover {
+  color: red;
+}
