@@ -13,6 +13,7 @@
         }
 
         .search-bar {
+            display: block;
             font-size: 20px;
             border-radius: 4px;
         }
@@ -29,21 +30,43 @@
 
         }
 
+        .video-preview {
+            display: inline-block;
+            width: 300px;
+        }
+
     </style>
 
 
 </head>
 <body>
     <input type="text" placeholder="search" class="search-bar">
-    <img class="thumbnail" src="thumbnail-1.webp" alt="">
-    <p class="video-title">
-        Talking Tech and AI with Google CEO Sundar Pichai
-    </p>
-    <p class="video-author">
-        Marques Browlee
-    </p>
-    <p class="video-stats">
-        3.4M views &#183; 6 months ago
-    </p>
+   
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnail-1.webp" alt="">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai
+        </p>
+        <p class="video-author">
+            Marques Browlee
+        </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+    </div>
+
+    <div class="video-preview">
+        <img class="thumbnail" src="thumbnail-2.webp" alt="">
+        <p class="video-title">
+            Tey Not To Laugh Challenge #9
+        </p>
+        <p class="video-author">
+            Markiplier
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>
+    </div>
+
 </body>
 </html>
